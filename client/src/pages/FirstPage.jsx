@@ -1,10 +1,12 @@
 import React from 'react'
-import FirstComponent from '../components/FirstComponent'
+import FirstComponent from '../components/FirstComponent.component'
 
-export default function FirstPage() {
+function FirstPage() {
     return (
         <div className="first-page-style">
             <FirstComponent />
         </div>
     )
 } 
+
+export default FirstPage;
